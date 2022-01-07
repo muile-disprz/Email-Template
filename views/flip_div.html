@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Support for flip of a div on hover</title>
+    <style>
+        .content {
+            position: relative;
+        }
+        .front {
+            background: #6A1CA6;
+            color: white;
+            width: 200px;
+            height: 200px;
+            transition: 0.5s;
+            position: absolute;
+            z-index: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center
+        }
+        .back {
+            background:white;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: #6A1CA6;
+            display: flex;
+            justify-content: center;
+            align-items: center
+        }
+
+        @media all {
+            .content:hover .front {
+                transform: rotateY(180deg); 
+                -webkit-transform: rotateY(180deg);
+                opacity: 0;
+            }
+        }
+
+    </style>
+  </head>
+  <body class="">
+    <div class="content">
+      <div class="front">Front</div>
+      <div class="back">Back</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rendering a sentence with animation by displaying one character at a time.</title>
+    <style>
+        .rw-wrapper{
+            width: 80%;
+            margin: 110px auto 0 auto;
+            padding: 10px;
+            background: white;
+        }
+        .rw-sentence span{
+            color: #6A1CA6;
+            white-space: nowrap;
+            font-weight: normal;
+        }
+        .rw-words span{
+            position: absolute;
+            opacity: 0;
+            overflow: hidden;
+            width: 100%;
+            color: #6b969d;
+        }
+        .rw-words-1 span{
+            animation: rotateWordsFirst 8s linear infinite 0s;
+        }
+        .rw-words-2 span{
+            animation: rotateWordsSecond 8s linear infinite 0s;
+        }
+        .rw-words span:nth-child(2) { 
+            animation-delay: 2s;
+            -webkit-animation-delay: 2s;
+            color: #6b889d;
+        }
+        .rw-words span:nth-child(3) { 
+            animation-delay: 5s;
+            -webkit-animation-delay: 5s;
+            color: #6b739d;	
+        }
+        .rw-words span:nth-child(4) { 
+            animation-delay: 8s;
+            -webkit-animation-delay: 8s;
+            color: #7a6b9d;
+        }
+
+        @keyframes rotateWordsFirst {
+            0% { opacity: 1; animation-timing-function: ease-in; height: 0px; }
+            8% { opacity: 1; height: 60px; }
+            19% { opacity: 1; height: 60px; }
+            25% { opacity: 0; height: 60px; }
+            100% { opacity: 0; }
+        }
+
+        /* Safari 4.0 - 8.0 */
+        @-webkit-keyframes rotateWordsFirst {
+            0% { opacity: 1; animation-timing-function: ease-in; height: 0px; }
+            8% { opacity: 1; height: 60px; }
+            19% { opacity: 1; height: 60px; }
+            25% { opacity: 0; height: 60px; }
+            100% { opacity: 0; }
+        }
+
+        @keyframes rotateWordsSecond {
+            0% { opacity: 1; animation-timing-function: ease-in; width: 0px; }
+            10% { opacity: 0.3; width: 0px; }
+            20% { opacity: 1; width: 100%; }
+            27% { opacity: 0; width: 100%; }
+            100% { opacity: 0; }
+        }
+
+        /* Safari 4.0 - 8.0 */
+        @-webkit-keyframes rotateWordsSecond {
+            0% { opacity: 1; animation-timing-function: ease-in; width: 0px; }
+            10% { opacity: 0.3; width: 0px; }
+            20% { opacity: 1; width: 100%; }
+            27% { opacity: 0; width: 100%; }
+            100% { opacity: 0; }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="rw-wrapper">
+        <h2 class="rw-sentence">
+            <span>Rendering a sentence with animation by displaying one character at a time.</span>
+            <div class="rw-words rw-words-2">
+                <span>Fugit eum sint id aperiam aut.</span>
+                <span>Officiis deserunt a voluptatem. Rerum enim accusamus eos deserunt qui animi.</span>
+                <span>Accusamus tempore maiores sed quia explicabo ullam nobis quo sed.</span>
+            </div>
+        </h2>
+    </section>
+</body>
+
+</html>
+<!--  -->
