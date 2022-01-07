@@ -68,6 +68,6 @@ Overview CSS animation is supported in webkit clients, such as Apple Mail, iOS m
  - ![Screen Shot 2022-01-07 at 8 49 28 PM](https://user-images.githubusercontent.com/94039579/148553155-c5e03dc3-3f3b-439f-91e3-aad38e4d7f07.png)
 
 
-Resource:
+### Resource Refer
 - https://www.campaignmonitor.com/css/
 - http://freshinbox.com/resources/css.php
