@@ -64,7 +64,12 @@ Overview CSS animation is supported in webkit clients, such as Apple Mail, iOS m
 **Send email**
  - Clone source code, then cd `your/source/path` and `npm i`
  - Change the email to on `server.js`
- - ![Screen Shot 2022-01-07 at 8 49 28 PM](https://user-images.githubusercontent.com/94039579/148553155-c5e03dc3-3f3b-439f-91e3-aad38e4d7f07.png)
+
+ ![Screen Shot 2022-01-07 at 8 49 28 PM](https://user-images.githubusercontent.com/94039579/148553155-c5e03dc3-3f3b-439f-91e3-aad38e4d7f07.png)
+  and copy the template that you want to send into `email.handlebars`:
+  
+  ![Screen Shot 2022-01-07 at 9 03 48 PM](https://user-images.githubusercontent.com/94039579/148554950-43002e59-26f2-42b0-bfcd-893428c8b8fe.png)
+
  - run `node server.js`
 
 
