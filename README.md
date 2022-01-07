@@ -43,6 +43,23 @@ Overview CSS animation is supported in webkit clients, such as Apple Mail, iOS m
 
 ![Screen Shot 2022-01-07 at 7 57 21 PM](https://user-images.githubusercontent.com/94039579/148547179-ff060bbd-a6f6-4488-9f2e-905e74ab7964.png)
 
+**Apple mail** +
+
+![apple_animation](https://user-images.githubusercontent.com/94039579/148551755-43b26ce4-41dd-4a28-8227-2ea4d9c4be1f.gif)
+
+**Outlook web** -
+
+![Screen Shot 2022-01-07 at 8 36 05 PM](https://user-images.githubusercontent.com/94039579/148551696-667836d3-b58e-4470-b67e-a5383a615da2.png)
+
+
+**Gmail web** -
+
+![Screen Shot 2022-01-07 at 8 34 44 PM](https://user-images.githubusercontent.com/94039579/148551730-d5827511-f0a3-4614-a6ac-9049b1304568.png)
+
+*Notes* I try to find docs and do a lot of examples, but I can't do the animation works fine to support multiple email clients, which seems like a challenge to me.
+
+**Questions**
+ - Have you any documents or examples for the section second and third of the research list?
 
 Resource:
 - https://www.campaignmonitor.com/css/
