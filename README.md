@@ -62,10 +62,10 @@ Overview CSS animation is supported in webkit clients, such as Apple Mail, iOS m
  - Have you any documents or examples for the section second and third of the research list?
 
 **Send email**
- - Clone source code, then `npm i`
- - cd `your/source/path` then `node server.js`
+ - Clone source code, then cd `your/source/path` and `npm i`
  - Change the email to on `server.js`
  - ![Screen Shot 2022-01-07 at 8 49 28 PM](https://user-images.githubusercontent.com/94039579/148553155-c5e03dc3-3f3b-439f-91e3-aad38e4d7f07.png)
+ - run `node server.js`
 
 
 ### Resource Refer
