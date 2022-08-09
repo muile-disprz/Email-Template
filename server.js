@@ -7,8 +7,8 @@ var transporter = nodemailer.createTransport(
     {
         service: 'gmail',
         auth:{
-            user: 'le.muiv91@gmail.com',
-            pass: 'muibkdn1991'
+            user: '',
+            pass: ''
         }
     }
 );
@@ -27,8 +27,8 @@ transporter.use('compile', hbs(handlebarOptions))
 
 
 var mailOptions = {
-    from: '"Mui Le" <le.muiv91@gmail.com>', // sender address
-    to: 'mui.le@tpptechnology.com', // list of receivers
+    from: '', // sender address
+    to: '', // list of receivers
     // to: 'mui.le@disprz.com', // list of receivers
     // subject: 'Email-template!',
     template: 'email', // the name of the template file i.e email.handlebars
